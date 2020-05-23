@@ -1,0 +1,16 @@
+{
+    "name": "opensums/opensums-wp-plugin",
+    "description": "Template for plugins for WordPress (TM) created by OpenSums.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OpenSumsWpPlugin\\": "src/"
+        }
+    },
+    "require": {
+    },
+    "require-dev": {
+        "symfony/console": "^5.0",
+        "phpunit/phpunit": "^7"
+    }
+}
